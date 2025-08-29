@@ -389,3 +389,4 @@ For questions, support, or collaboration opportunities:
 - **Security Issues**: Report to security@healer-platform.com
 
 Built with ❤️ for mental health awareness and support.# Healer
+# Healer
