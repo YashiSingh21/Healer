@@ -1,0 +1,82 @@
+2025-08-26 23:42:04.363 | INFO     | app.main:lifespan:29 - Starting Healer Platform v1.0.0
+2025-08-26 23:42:05.074 | INFO     | app.core.database:connect_to_mongo:32 - Connected to MongoDB database: healer_platform
+2025-08-26 23:42:05.700 | INFO     | app.core.database:create_indexes:105 - Database indexes created successfully
+2025-08-26 23:42:05.702 | ERROR    | app.core.database:connect_to_redis:62 - Failed to connect to Redis: Error 61 connecting to localhost:6379. Connection refused.
+2025-08-26 23:42:05.702 | INFO     | app.main:lifespan:36 - Simple RAG engine ready
+2025-08-26 23:42:05.702 | INFO     | app.main:lifespan:38 - Application startup complete
+2025-08-26 23:42:06.174 | INFO     | app.main:lifespan:29 - Starting Healer Platform v1.0.0
+2025-08-26 23:42:06.613 | INFO     | app.core.database:connect_to_mongo:32 - Connected to MongoDB database: healer_platform
+2025-08-26 23:42:07.362 | INFO     | app.core.database:create_indexes:105 - Database indexes created successfully
+2025-08-26 23:42:07.364 | ERROR    | app.core.database:connect_to_redis:62 - Failed to connect to Redis: Error 61 connecting to localhost:6379. Connection refused.
+2025-08-26 23:42:07.364 | INFO     | app.main:lifespan:36 - Simple RAG engine ready
+2025-08-26 23:42:07.364 | INFO     | app.main:lifespan:38 - Application startup complete
+2025-08-26 23:42:07.780 | INFO     | app.main:lifespan:29 - Starting Healer Platform v1.0.0
+2025-08-26 23:42:08.165 | INFO     | app.core.database:connect_to_mongo:32 - Connected to MongoDB database: healer_platform
+2025-08-26 23:42:08.819 | INFO     | app.core.database:create_indexes:105 - Database indexes created successfully
+2025-08-26 23:42:08.822 | ERROR    | app.core.database:connect_to_redis:62 - Failed to connect to Redis: Error 61 connecting to localhost:6379. Connection refused.
+2025-08-26 23:42:08.822 | INFO     | app.main:lifespan:36 - Simple RAG engine ready
+2025-08-26 23:42:08.822 | INFO     | app.main:lifespan:38 - Application startup complete
+2025-08-26 23:42:16.561 | INFO     | app.main:lifespan:29 - Starting Healer Platform v1.0.0
+2025-08-26 23:42:16.958 | INFO     | app.core.database:connect_to_mongo:32 - Connected to MongoDB database: healer_platform
+2025-08-26 23:42:17.625 | INFO     | app.core.database:create_indexes:105 - Database indexes created successfully
+2025-08-26 23:42:17.629 | ERROR    | app.core.database:connect_to_redis:62 - Failed to connect to Redis: Error 61 connecting to localhost:6379. Connection refused.
+2025-08-26 23:42:17.629 | INFO     | app.main:lifespan:36 - Simple RAG engine ready
+2025-08-26 23:42:17.629 | INFO     | app.main:lifespan:38 - Application startup complete
+2025-08-26 23:47:32.399 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/profile
+2025-08-26 23:47:32.400 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/profile
+2025-08-26 23:47:32.400 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.001s
+2025-08-26 23:47:32.400 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.001s
+2025-08-26 23:47:32.401 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/profile
+2025-08-26 23:47:32.406 | ERROR    | app.core.security:decode_token:46 - JWT decode error: Signature has expired.
+2025-08-26 23:47:32.407 | INFO     | app.main:log_requests:94 - Response: 401 - Time: 0.006s
+2025-08-26 23:47:32.408 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/profile
+2025-08-26 23:47:32.408 | ERROR    | app.core.security:decode_token:46 - JWT decode error: Signature has expired.
+2025-08-26 23:47:32.409 | INFO     | app.main:log_requests:94 - Response: 401 - Time: 0.001s
+2025-08-26 23:48:04.627 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/auth/register
+2025-08-26 23:48:04.629 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.002s
+2025-08-26 23:48:04.631 | INFO     | app.main:log_requests:85 - Request: POST /api/v1/auth/register
+2025-08-26 23:48:04.938 | INFO     | app.api.v1.endpoints.auth:register:100 - New user registered: mmm
+2025-08-26 23:48:04.939 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.307s
+2025-08-26 23:48:14.251 | INFO     | app.main:log_requests:85 - Request: POST /api/v1/auth/login
+2025-08-26 23:48:14.557 | INFO     | app.api.v1.endpoints.auth:login:180 - User logged in: mmm
+2025-08-26 23:48:14.557 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.307s
+2025-08-26 23:48:14.562 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/profile
+2025-08-26 23:48:14.593 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.031s
+2025-08-26 23:48:15.018 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/dashboard
+2025-08-26 23:48:15.018 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.000s
+2025-08-26 23:48:15.021 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/dashboard
+2025-08-26 23:48:15.021 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-26 23:48:15.022 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.001s
+2025-08-26 23:48:15.052 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.031s
+2025-08-26 23:48:15.053 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-26 23:48:15.086 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.034s
+2025-08-26 23:48:20.498 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/chat/message
+2025-08-26 23:48:20.500 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.002s
+2025-08-26 23:48:20.501 | INFO     | app.main:log_requests:85 - Request: POST /api/v1/chat/message
+2025-08-26 23:48:26.706 | INFO     | app.api.v1.endpoints.chat:send_message:295 - Message processed for user mmm, crisis level: none
+2025-08-26 23:48:26.707 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 6.205s
+2025-08-26 23:49:04.133 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/mood/entries
+2025-08-26 23:49:04.133 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/mood/entries
+2025-08-26 23:49:04.133 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.001s
+2025-08-26 23:49:04.134 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.000s
+2025-08-26 23:49:04.134 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/mood/entries
+2025-08-26 23:49:04.195 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.060s
+2025-08-26 23:49:04.195 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/mood/entries
+2025-08-26 23:49:04.256 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.060s
+2025-08-26 23:49:14.832 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-26 23:49:14.864 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.032s
+2025-08-26 23:49:14.865 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-26 23:49:14.899 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.033s
+2025-08-27 00:06:49.170 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/dashboard
+2025-08-27 00:06:49.173 | INFO     | app.main:log_requests:85 - Request: OPTIONS /api/v1/user/dashboard
+2025-08-27 00:06:49.174 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.004s
+2025-08-27 00:06:49.174 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.001s
+2025-08-27 00:06:49.176 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-27 00:06:49.211 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.035s
+2025-08-27 00:06:49.212 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-27 00:06:49.244 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.032s
+2025-08-27 00:06:55.222 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-27 00:06:55.253 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.031s
+2025-08-27 00:06:55.255 | INFO     | app.main:log_requests:85 - Request: GET /api/v1/user/dashboard
+2025-08-27 00:06:55.286 | INFO     | app.main:log_requests:94 - Response: 200 - Time: 0.032s
+2025-08-27 00:15:44.625 | INFO     | app.main:lifespan:43 - Shutting down application
